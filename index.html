@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+    <title>Image Resize</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="uploard-box" id="uploard-box">
+            <input type="file" id="file" accept="image/*" hidden>
+        <img src="https://img.icons8.com/external-inkubators-blue-inkubators/25/null/external-upload-arrow-lite-inkubators-blue-inkubators.png"/>
+        <p>Browse File To Uploard</p>
+        </div>
+        <div class="row width">
+            <div class="colum">
+                <label for="Inputwidth">Width</label>
+                <input type="number" name="width" id="Inputwidth">
+            </div>
+            <div class="colum">
+                <label for="Inputheight">Height</label>
+                <input type="number" name="height" id="Inputheight">
+            </div>
+        </div>
+            <div class="checkbox width">
+                <div class="colum">
+                    <input type="checkbox" name="checkbox" id="aspact-ratio" checked>
+                    <label for="aspact-ratio">Aspact Ratio Lock</label>
+                </div>
+                <div class="colum">
+                    <input type="checkbox" name="checkbox" id="reduce">
+                    <label for="reduce">Reduce Quality</label>
+                </div>
+                
+            </div>
+           
+                <button id="btn">Download</button>
+           
+        
+    </div>
+</body>
+</html>
